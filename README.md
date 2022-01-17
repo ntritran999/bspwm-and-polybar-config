@@ -11,7 +11,7 @@ My OS information:
 - Shell: zsh 5.8
 
 ## Configuration
-See more in docs 
+See more in doc 
 
 ## Resources
 - How to setup zsh and oh-my-zsh: [here](https://www.sitepoint.com/zsh-tips-tricks/)
