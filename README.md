@@ -44,5 +44,12 @@ My OS information:
     > **_NOTE:_** You may need to change from `super + Return` to something else like `ctrl + alt + t` in case you don't have the 'Return' key or if you prefer another keybinding for it. 
   - Now logout. After that, during login, click the "gear" icon  (at the bottom right of the screen) and select 'bspwm'. 
     > **_NOTE:_** If all went according to plan, you should be presented with a blank screen. That's good. Open up your preferred terminal using whatever key combination / terminal name you chose in your .config/sxhkdrc. If not, see more at [here](https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies)
-    
+- Polybar
+  - [Install polybar](https://github.com/polybar/polybar#installation)
+  - [Run polybar](https://github.com/polybar/polybar/wiki)
+    >**_NOTE:_** At [lauch section](https://github.com/polybar/polybar/wiki#launching-the-bar-in-your-wms-bootstrap-routine), they say `Make sure you use the name(s) of the bar(s) from your config.`. In case you can't find it, it's actually in ~/.config/polybar/config, at the line `[bar/example]`. You can change it like this `[bar/mybar]` or just keep at way :).
+
+
+## Configuration   
+Details in doc ( Because this is already too long :V ).
     
