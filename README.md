@@ -1,0 +1,1 @@
+# bspwm-and-polybar-config
