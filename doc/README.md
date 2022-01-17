@@ -16,7 +16,7 @@ git clone https://github.com/stark/siji && cd siji
 ./install.sh -d ~/.fonts
 ./view.sh
 ```
->**_NOTE:_** if you want to run `./view.sh` next time when you open your terminal, add these in bspwmrc:
+>**_NOTE:_** if you want to run `./view.sh` next time you open your terminal, add these in bspwmrc:
 ```
 xset +fp $HOME/.fonts
 xset fp rehash
