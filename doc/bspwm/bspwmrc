@@ -22,10 +22,8 @@ feh --bg-fill ~/Downloads/img/wallpaper.jpg
 $HOME/.config/polybar/launch.sh
 $HOME/.config/picom/picom-launch.sh
 
-#Successfully installed siji.pcf -> /home/ntritran999/.fonts
-#Add the following snippet in your custom startup script that gets executed during xlogin:
 
-	xset +fp /home/ntritran999/.fonts
-	xset fp rehash
+xset +fp $HOME/.fonts
+xset fp rehash
 	
 setxkbmap -option grp:alt_shift_toggle us,vn &
