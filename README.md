@@ -1,7 +1,7 @@
 ## Table of Contents
-- [Introduction](##Introduction)
-- [Configuration](##Configuration)
-- [Resources](##Resources)
+- [Introduction](#Introduction)
+- [Configuration](#Configuration)
+- [Resources](#Resources)
 
 ## Introduction
 This is my config for bspwm (a window manager) and polybar (a status bar).<br />
