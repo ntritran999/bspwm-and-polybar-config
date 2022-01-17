@@ -1,1 +1,5 @@
-# bspwm-and-polybar-config
+## Table of Contents
+- [Introduction](##Introduction)
+- [Installation](##Installation)
+
+## Introduction
