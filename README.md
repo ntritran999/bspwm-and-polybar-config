@@ -1,7 +1,7 @@
 ## Table of Contents
 - [Introduction](#Introduction)
+- [Installation](#Installation)
 - [Configuration](#Configuration)
-- [Resources](#Resources)
 
 ## Introduction
 This is my config for bspwm (a window manager) and polybar (a status bar).<br />
@@ -10,10 +10,8 @@ My OS information:
 - Kernel: 5.15.14-100.fc34.x86_64
 - Shell: zsh 5.8
 
-## Configuration
-See more in doc 
-
-## Resources
-- How to setup zsh and oh-my-zsh: [here](https://www.sitepoint.com/zsh-tips-tricks/)
-- How to install bspwm: [here]()
-- How to install polybar: [here](https://github.com/polybar/polybar#installation)
+## Installation
+- Zsh
+  - [Install zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+  - [Install oh my zsh(optional)](https://github.com/ohmyzsh/ohmyzsh)
+  - See more at: [here](https://www.sitepoint.com/zsh-tips-tricks/)
