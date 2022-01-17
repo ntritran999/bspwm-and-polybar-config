@@ -12,7 +12,7 @@ XF86MonBrightnessDown
 shift + alt
 	{setxkbmap us, setxkbmap vn}
     
-# terminal emulator (change this depends on your terminal emulator like in the README.md)
+# terminal emulator (change this depends on your terminal emulator)
 ctrl + alt + t
 	gnome-terminal
 
