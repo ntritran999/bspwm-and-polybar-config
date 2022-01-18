@@ -7,6 +7,7 @@ Some of my configuration for polybar may not work for you, so please check the [
 
 ## Configure
 - [Bspwm](#Bspwm)
+- [Sxhkd](#Sxhkd)
 - [Fonts](#Fonts)
 
 ### Bspwm
@@ -15,6 +16,10 @@ Set wallpaper for bspwm:
 2. In ~/.config/bspwm/bspwmrc, add: `feh --bg-fill ~/Downloads/img/wallpaper.jpg` (change the path to where you keep your wallpaper/background image).
 
 To change themes,fonts,cursors,etc, install `lxappearance`. Run it and a window will pop up. Use it to customize your settings. When you're done, click "Apply" before closing.
+
+### Sxkhd
+Install `scrot` for screen shot. ([How to use scrot](https://wiki.archlinux.org/title/Screen_capture#scrot))
+Install `brightnessctl` for adjusting screen brightness. ([How to use brightnessctl](https://github.com/Hummer12007/brightnessctl#usage))
 
 ### Fonts
 Install siji font:
