@@ -1,6 +1,7 @@
 ## Tables of contents
 - [Introduction](#Introduction)
 - [Configure](#Configure)
+- [Addition](#Addition)
 
 ## Introduction
 Some of my configuration for polybar may not work for you, so please check the [polybar wiki](https://github.com/polybar/polybar/wiki) for more information about the modules, the bars, etc.
@@ -41,3 +42,8 @@ Install MesloLGS NF font:
   - [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
   - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 2. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all applications on your system.
+
+## Addition
+- If you're using Gnome, then why not take a look at this [website](https://www.gnome-look.org/browse/).
+- For me, I use this [theme](https://www.gnome-look.org/p/1253385/). After download the ".tarxz" files that you want, extract them, then move them to `~/.themes/` directory (just create one if you don't have it). Finally, you can set theme in lxappearance.
+- For cursors or icons changing, create `~/.icons/` directory. 
