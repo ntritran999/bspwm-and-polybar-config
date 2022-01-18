@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# print screen
+Print 
+	scrot ~/Pictures/screenshot.png
+# change screen brightness
 # change screen brightness (keys on laptop that control screen brightness)
 XF86MonBrightnessUp
 	brightnessctl s +10%
