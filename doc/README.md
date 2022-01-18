@@ -44,6 +44,6 @@ Install MesloLGS NF font:
 2. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all applications on your system.
 
 ## Addition
-- If you're using Gnome, then why not take a look at this [website](https://www.gnome-look.org/browse/).
-- For me, I use this [theme](https://www.gnome-look.org/p/1253385/). After download the ".tarxz" files that you want, extract them, then move them to `~/.themes/` directory (just create one if you don't have it). Finally, you can set theme in lxappearance.
+- If you're using Gnome, then why not take a look at this [website](https://www.gnome-look.org/browse/). For me, I use this [theme](https://www.gnome-look.org/p/1253385/).
+- After download the ".tarxz" files that you want, extract them, then move them to `~/.themes/` directory (just create one if you don't have it). Finally, you can set theme in lxappearance.
 - For cursors or icons changing, create `~/.icons/` directory. 
