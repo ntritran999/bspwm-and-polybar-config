@@ -176,13 +176,13 @@ label-close-foreground = ${colors.secondary}
 
 label-separator = |
 
-menu-0-0 = lock
+menu-0-0 = 
 menu-0-0-exec = betterlockscreen -l blur
 
-menu-0-1 = reboot
+menu-0-1 = ﰇ 
 menu-0-1-exec = reboot
 
-menu-0-2 = power off
+menu-0-2 = ⭘
 menu-0-2-exec = poweroff
 menu-0-2-padding-right = 1
 
