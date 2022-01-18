@@ -13,6 +13,7 @@ Some of my configuration for polybar may not work for you, so please check the [
 Set wallpaper for bspwm: 
 1. Install `feh`: run `sudo dnf install feh` on Fedora or `sudo apt-get install feh` on Ubuntu.
 2. In ~/.config/bspwm/bspwmrc, add: `feh --bg-fill ~/Downloads/img/wallpaper.jpg` (change the path to where you keep your wallpaper/background image).
+
 To change themes,fonts,cursors,etc, install `lxappearance`. Run it and a window will pop up. Use it customize your settings. When you're done, click "Apply" before closing.
 
 ### Fonts
