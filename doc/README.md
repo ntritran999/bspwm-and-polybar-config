@@ -18,7 +18,7 @@ Set wallpaper for bspwm:
 To change themes,fonts,cursors,etc, install `lxappearance`. Run it and a window will pop up. Use it to customize your settings. When you're done, click "Apply" before closing.
 
 ### Sxhkd
-Install `scrot` for screen shot. ([How to use scrot](https://wiki.archlinux.org/title/Screen_capture#scrot))
+Install `scrot` for screen shot. ([How to use scrot](https://wiki.archlinux.org/title/Screen_capture#scrot))<br />
 Install `brightnessctl` for adjusting screen brightness. ([How to use brightnessctl](https://github.com/Hummer12007/brightnessctl#usage))
 
 ### Fonts
