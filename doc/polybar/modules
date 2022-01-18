@@ -147,6 +147,18 @@ label = %percentage_used%%
 label-padding-right = 1
 
 
+[module/network]
+type = internal/network
+interface = wlp0s20f3
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected = %{T4} %{T-}%downspeed%  %{T4} %{T-}%upspeed%
+label-connected-padding-right = 1
+label-disconnected = wifi:%{T4}ﮊ %{T-}
+
+
 [module/powermenu]
 type = custom/menu
 
@@ -173,18 +185,6 @@ menu-0-1-exec = reboot
 menu-0-2 = power off
 menu-0-2-exec = poweroff
 menu-0-2-padding-right = 1
-
-
-[module/network]
-type = internal/network
-interface = wlp0s20f3
-
-format-connected = <label-connected>
-format-disconnected = <label-disconnected>
-
-label-connected = %{T4} %{T-}%downspeed%  %{T4} %{T-}%upspeed%
-label-connected-padding-right = 1
-label-disconnected = wifi:%{T4}ﮊ %{T-}
 
 
 [module/pulseaudio]
