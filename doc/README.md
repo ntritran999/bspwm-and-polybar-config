@@ -28,9 +28,9 @@ Install siji font:
 ```
 git clone https://github.com/stark/siji && cd siji
 ./install.sh -d ~/.fonts
-./view.sh
 ```
->**_NOTE:_** if you want to run `./view.sh` next time you open your terminal, add these in bspwmrc:
+After that, run `cp ./view.sh ~/.local/bin` so that next time you open terminal, you just need to type view.sh and a window will pop up.
+>**_NOTE:_** Remember to add these in bspwmrc:
 ```
 xset +fp $HOME/.fonts
 xset fp rehash
