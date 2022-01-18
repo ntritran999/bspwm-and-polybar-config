@@ -19,6 +19,16 @@ bspc rule -a Screenkey manage=off
 
 source ~/.zshrc
 feh --bg-fill ~/Downloads/img/wallpaper.jpg
+
+##############################################################################################################################
+# Fix the issue where it keeps switching between hwmon4 and hwmon5
+for i in /sys/class/hwmon/hwmon*/temp*_input; do 
+    if [ "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*}))" = "coretemp: Core 0" ]; then
+        export HWMON_PATH="$i"
+    fi
+done
+##############################################################################################################################
+
 $HOME/.config/polybar/launch.sh
 $HOME/.config/picom/picom-launch.sh
 
