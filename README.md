@@ -5,6 +5,7 @@
 
 ## Introduction
 This is my config for bspwm (a window manager) and polybar (a status bar) on my laptop.<br />
+![Screenshot](screenshot.png)
 My OS information:
 - Fedora 34 (Workstation Edition) x86_64
 - Kernel: 5.15.14-100.fc34.x86_64
