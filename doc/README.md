@@ -16,8 +16,11 @@ Set wallpaper for bspwm:
 1. Install `feh`: run `sudo dnf install feh` on Fedora or `sudo apt-get install feh` on Ubuntu.
 2. In ~/.config/bspwm/bspwmrc, add: `feh --bg-fill ~/Downloads/img/wallpaper.jpg` (change the path to where you keep your wallpaper/background image).
 
-To change themes,fonts,cursors,etc, install `lxappearance`. Run it and a window will pop up. Use it to customize your settings. When you're done, click "Apply" before closing.<br />
+Change themes,fonts,cursors,etc, install `lxappearance`. Run it and a window will pop up. Use it to customize your settings. When you're done, click "Apply" before closing.<br />
 ![Lxappearance](lxappearance.png)
+
+Screen lock:
+- Install [betterlockscreen](https://reposhub.com/linux/miscellaneous/pavanjadhaw-betterlockscreen.html).
 
 ### Sxhkd
 Install `scrot` for screen shot. ([How to use scrot](https://wiki.archlinux.org/title/Screen_capture#scrot))<br />
