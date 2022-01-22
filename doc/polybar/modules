@@ -128,13 +128,23 @@ label-mounted-padding-right = 1
 [module/logo]
 type = custom/menu
 
-expand-right = false
+expand-right = true
 
 format-spacing = 1
 
 label-open = %{T4}%{T-}
 label-open-background = ${colors.blue-alt}
 label-open-padding = 2
+
+label-close = X
+label-close-padding-left = 1
+label-close-foreground = ${colors.secondary}
+
+label-separator = |
+
+menu-0-0 = %{T4} %{T-}|
+menu-0-0-exec = firefox
+menu-0-0-padding-right = 1
 
 
 [module/memory]
