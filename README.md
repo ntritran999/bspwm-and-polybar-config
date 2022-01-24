@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [Configuration](#Configuration)
