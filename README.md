@@ -52,5 +52,5 @@ My OS information:
 
 
 ## Configuration   
-Details in doc ( Because this is already too long :V ).
+Details in [doc](https://github.com/ntritran999/bspwm-and-polybar-config/tree/main/doc) ( Because this is already too long :V ).
     
